@@ -1,2 +1,11 @@
-#Copying files from a remote server
+Installing SSH on Linux
+RedHat Family: sudo yum intsall openssh
+Debian Family: sudo apt install openssh
+
+
+Accessing Remote Server Using SSH
+ssh username@host_ip
+
+
+Copying files from a remote server
 scp file_name usename@host_ip_address:File_Path (Path you want to copy)
